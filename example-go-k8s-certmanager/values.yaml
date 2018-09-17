@@ -1,0 +1,10 @@
+ingress:
+  name: nginx-ingress
+
+domainName: yourdomainname.com
+ingressClass: nginx
+certIssuer: letsencrypt-prod
+certSecret: example-certificate
+
+app:
+  name: example-go-k8s-certmanager

@@ -1,0 +1,4 @@
+apiVersion: v1
+description: Deploy Go app with LetsEncrypt certificates via cert-manager on K8s
+name: example-go-k8s-certmanager
+version: 0.1.0

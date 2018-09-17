@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: app
-        image: marinkovicpetar/tamedia-challenge
+        image: yourdockerrepo/container
         imagePullPolicy: IfNotPresent
         livenessProbe:
           httpGet:

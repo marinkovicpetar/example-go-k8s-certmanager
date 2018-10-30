@@ -33,6 +33,7 @@ $ helm install --name cert-manager --namespace kube-system \
 $ kubectl create -f cert-manager-deploy/letsencrypt-prod.yaml
 ```
 If you want to test first, follow the instructions from [cert-manager docs](http://docs.cert-manager.io/en/latest/tutorials/acme/http-validation.html) in order to use `staging` LetsEncrypt endpoint
+
 4. Install `example-go-k8s-certmanager` local Helm chart
 ```
 helm install --name example-go-k8s-certmanager ./example-go-k8s-certmanager
